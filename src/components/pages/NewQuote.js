@@ -1,5 +1,7 @@
+import QuoteForm from '../quotes/QuoteForm';
+
 const NewQuote = () => {
-    return <h1>New Quote</h1>;
+    return <QuoteForm />
 };
 
 export default NewQuote;
